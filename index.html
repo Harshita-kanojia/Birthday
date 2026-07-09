@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Pagal 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+
+    <div id="loader">
+
+        <h1>Loading Memories...</h1>
+
+        <div class="loading-bar">
+            <span></span>
+        </div>
+
+    </div>
+
+    <!-- Floating Hearts -->
+
+    <div class="hearts"></div>
+
+    <!-- Music -->
+
+    <audio id="music" loop>
+        <source src="assets/music/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <img src="assets/images/photo1.jpg" class="hero-bg">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <h2>Happy Birthday</h2>
+
+            <h1>Sachin</h1>
+
+            <h3>aka</h3>
+
+            <h2 class="blue">Pagal 💙</h2>
+
+            <p>
+                Some people become family without sharing the same blood.
+            </p>
+
+            <p class="small">
+                A little surprise from your Motu ❤️
+            </p>
+
+            <button id="openBtn">
+
+                Open Surprise 🎁
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about">
+
+        <h2>To My Favourite Idiot ❤️</h2>
+
+        <p>
+
+            Happy Birthday to the most annoying, funniest and caring brother.
+
+            Thank you for making every memory unforgettable.
+
+            Here's a small journey of our favourite moments together.
+
+        </p>
+
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="gallery">
+
+        <h2>Our Memories 📸</h2>
+
+        <div class="gallery-container">
+
+            <div class="card">
+
+                <img src="assets/images/photo1.jpg">
+
+                <p>Beach Days 🌊</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo2.jpg">
+
+                <p>Goa Vibes 🌴</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo3.jpg">
+
+                <p>Forever Crazy 😂</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo4.jpg">
+
+                <p>Beautiful Memories 💙</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo5.jpg">
+
+                <p>Always Together 🤍</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo6.jpg">
+
+                <p>Smile More 😊</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo7.jpg">
+
+                <p>College Days 🎓</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo8.jpg">
+
+                <p>Best Moments ✨</p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="assets/images/photo9.jpg">
+
+                <p>My Favourite Person ❤️</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Timeline -->
+
+    <section class="timeline">
+
+        <h2>Our Journey</h2>
+
+        <div class="line">
+
+            <div>🌊 Beach</div>
+
+            <div>🌴 Goa</div>
+
+            <div>🎓 College</div>
+
+            <div>🏆 Achievements</div>
+
+            <div>❤️ Forever</div>
+
+        </div>
+
+    </section>
+
+    <!-- Letter -->
+
+    <section class="letter">
+
+        <h2>💌 A Letter For You</h2>
+
+        <div class="letter-box">
+
+            <p>
+
+                Dear Pagal,
+
+                <br><br>
+
+                Happy Birthday to the most irritating, funniest and caring brother.
+
+                Life becomes lighter because you're around.
+
+                No matter how much we tease each other, you'll always be one of my favourite people.
+
+                I hope this year brings you endless happiness, success, peace and beautiful memories.
+
+                Thank you for always being there.
+
+                Never stop smiling.
+
+                Never stop dreaming.
+
+                Happy Birthday once again.
+
+                <br><br>
+
+                Love,
+
+                <br>
+
+                <strong>Motu ❤️</strong>
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Cake -->
+
+    <section class="cake-section">
+
+        <h2>Make a Wish 🎂</h2>
+
+        <div id="cake">
+
+            🎂
+
+        </div>
+
+        <p>Click the cake ✨</p>
+
+    </section>
+
+    <!-- Gift -->
+
+    <section class="gift">
+
+        <h2>Your Surprise 🎁</h2>
+
+        <div id="giftBox">
+
+            🎁
+
+        </div>
+
+        <div id="giftMessage">
+
+            <h3>🏆 Best Brother Award</h3>
+
+            <p>
+
+                You deserve every happiness in the world.
+
+                Thank you for being you.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Ending -->
+
+    <section class="ending">
+
+        <h1>Happy Birthday</h1>
+
+        <h2>Sachin 💙</h2>
+
+        <p>
+
+            May all your dreams come true.
+
+            Stay happy.
+
+            Stay healthy.
+
+            Keep smiling.
+
+        </p>
+
+        <h3>Made with ❤️ by Motu</h3>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
